@@ -17,7 +17,7 @@ plot(epc$dt, epc[,7], main="", xlab="", ylab="Energy sub metering", type='l')
 lines(epc$dt, epc[,8], col='red')
 lines(epc$dt, epc[,9], col='blue')
 legend('topright', c('Sub_metering_1','Sub_metering_2','Sub_metering_3'),
-col=c('black','red','blue'), cex=0.5, bty='n', lty=1, lwd=2)
+col=c('black','red','blue'),  bty='n', lty=1, lwd=2)
 
 plot(epc$dt, epc[,4], main="", xlab="datetime", 
 ylab="Global_reactive_power", type='l')
